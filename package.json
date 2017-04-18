@@ -1,6 +1,6 @@
 {
   "name": "generator-space-kitty",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Yoeman generator for React Components in Space Kitty projects",
   "license": "MIT",
   "main": "dist/app/index.js",

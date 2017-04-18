@@ -11,7 +11,7 @@ npm install -g generator-space-kitty
 
 ## Commands
 
-### yo kitty "Your Component Name"
+### yo space-kitty "Your Component Name"
 
 This will create a full modlet in the
 current working directory, including:
@@ -21,18 +21,18 @@ current working directory, including:
 * a Story file
 * a test file
 
-### yo kitty:react "Your Component Name"
+### yo space-kitty:react "Your Component Name"
 
 Create a react file with BEM style class names.
 
-### yo kitty:scss "Your Component Name"
+### yo space-kitty:scss "Your Component Name"
 
 Create a SCSS file with BEM style class names.
 
-### yo kitty:story "Your Component Name"
+### yo space-kitty:story "Your Component Name"
 
 Create a story file that assumes `./YourComponentName.js` exists.
 
-### yo kitty:test "Your Component Name"
+### yo space-kitty:test "Your Component Name"
 
 Create a test file that assumes `./YourComponentName.js` exists.

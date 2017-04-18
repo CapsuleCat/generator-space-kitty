@@ -1,16 +1,19 @@
-import React, { Component, PropTypes } from 'react';
-
-const { /* TODO */ } = PropTypes;
+import React, { Component } from 'react';
+import { node } from 'prop-types';
 
 export default class <%= componentName %> extends Component {
   static propTypes = {
-    /* TODO */
+    children: node,
   }
 
   render() {
+    const {
+      children,
+    } = this.props;
+
     return (
       <div className="<%= bemName %>">
-        {/* TODO */}
+        {children}
       </div>
     );
   }
