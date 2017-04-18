@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "memosa"
+  ],
+  "env": {
+    "node": true,
+    "browser": true,
+    "mocha": true
+  },
+}
